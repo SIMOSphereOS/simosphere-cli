@@ -1,0 +1,20 @@
+# SIMOSphere AI - Cursor Rules
+# API: https://api.simosphereai.com
+# MCP: https://simosphereai.com/.well-known/mcp
+# Auth: Bearer sk-simo-... in Authorization header
+# Docs: https://simosphereai.com/en/docs
+# SDK: npm install @simosphere/sdk
+
+## Base URL + auth
+# Always set baseURL to https://api.simosphereai.com/v1
+# Read the API key from process.env.SIMO_API_KEY (Node) or os.environ["SIMO_API_KEY"] (Python)
+# Never hardcode sk-simo-... keys
+
+## SDK choice
+# Use the official openai SDK with base-URL override or @simosphere/sdk
+
+## Model defaults
+# Default to qwen/qwen3-8b unless the user names a different model
+
+## Data Residency
+# EU only (Germany). GDPR-compliant. EU AI Act-ready.
