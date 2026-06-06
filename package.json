@@ -1,0 +1,20 @@
+{
+  "name": "@simosphere/cli",
+  "version": "0.1.0",
+  "description": "SIMOSphere AI CLI -- interact with the platform from your terminal",
+  "bin": {
+    "simosphere": "bin/simosphere.js"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@simosphere/sdk": "file:../sdk"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "license": "MIT"
+}
