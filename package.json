@@ -1,7 +1,7 @@
 {
   "name": "@simosphere/cli",
-  "version": "0.1.0",
-  "description": "SIMOSphere AI CLI -- interact with the platform from your terminal",
+  "version": "0.1.1",
+  "description": "SIMOSphere AI CLI — interact with the European AI orchestration platform from your terminal. GDPR-compliant.",
   "bin": {
     "simosphere": "bin/simosphere.js"
   },
@@ -10,8 +10,28 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "simosphere",
+    "ai",
+    "llm",
+    "cli",
+    "openai-compatible",
+    "gdpr",
+    "eu-ai-act",
+    "eu-hosted",
+    "germany",
+    "inference"
+  ],
+  "homepage": "https://simosphereai.com/en/docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SIMOSphereOS/simosphere-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SIMOSphereOS/simosphere-cli/issues"
+  },
   "dependencies": {
-    "@simosphere/sdk": "file:../sdk"
+    "@simosphere/sdk": "^0.1.0"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
